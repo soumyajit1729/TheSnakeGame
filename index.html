@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Snake Game</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link rel="shortcut icon" type="image/jpg" href="ktjlogo.png">
+  <link rel="stylesheet" type="text/css" href="indexstyle.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link rel="stylesheet" type="text/css" href="indexstyle.css">
+</head>
+<body>
+	
+	<div class="row">
+		<div class="col l6 m12">
+			<h1 id="go">Play The Snake Game</h1>
+			<span id="pa"></span><br>
+			<h3>Your score:<b id="score">0</b></h3><br>
+		</div>
+		<div class="col l6 m12" style="text-align: center;">
+			<canvas id="canvas" width="500" height="500"></canvas><br>
+			<button onclick="dirControl2(38)">up</button><br>
+			<button onclick="dirControl2(37)">left</button>
+			<button onclick="dirControl2(40)">down</button>
+			<button onclick="dirControl2(39)">right</button><br>
+			<button onclick="startGame1()"><b>start(slow)</b></button><button onclick="startGame2()"><b>start(medium)</b></button><button onclick="startGame3()"><b>start(fast)</b></button><br><button onclick="pause()"><b>Pause</b></button>
+		</div>
+	</div>
+	<script src="indexJS.js" ></script>
+</body>
+</html>
