@@ -31,6 +31,7 @@
 			<h1 id="go">Play The Snake Game</h1>
 			<span id="pa"></span><br>
 			<h3>Your score:<b id="score">0</b></h3><br>
+			<button onclick="startGame1()"><b>start(slow)</b></button><button onclick="startGame2()"><b>start(medium)</b></button><button onclick="startGame3()"><b>start(fast)</b></button><br><button onclick="pause()"><b>Pause</b></button>
 		</div>
 		<div class="col l6 m12" style="text-align: center;">
 			<canvas id="canvas" width="500" height="500"></canvas><br>
@@ -38,8 +39,8 @@
 			<button onclick="dirControl2(37)" class="ctrl">left</button>
 			
 			<button onclick="dirControl2(39)" class="ctrl">right</button><br>
-			<button onclick="dirControl2(40)" class="ctrl">down</button><br>
-			<button onclick="startGame1()"><b>start(slow)</b></button><button onclick="startGame2()"><b>start(medium)</b></button><button onclick="startGame3()"><b>start(fast)</b></button><br><button onclick="pause()"><b>Pause</b></button>
+			<button onclick="dirControl2(40)" class="ctrl">down</button>
+			
 		</div>
 	</div>
 	<script src="indexJS.js" ></script>
