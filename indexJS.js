@@ -38,6 +38,7 @@ var len = 4;
 var snake = [];
 
 function resetSnake(){
+	document.getElementById("go").innerHTML = "Play The Snake Game";
 	snake = [];
 	for (var i = len - 1; i >= 0; i--) {
 		snake.push({
