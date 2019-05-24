@@ -166,7 +166,7 @@ function gameOver() {
 	start.stop();
 	ctx.clearRect(0, 0, cvs.width, cvs.height);
 	x = 0;
-	// document.getElementById("go").innerHTML = "Game Over";
+	document.getElementById("go").innerHTML = "Game Over";
 	// document.getElementById("pa").innerHTML = "refresh to play again";
 	document.getElementsByTagName("body")[0].style.overflow =  "auto";
 	
